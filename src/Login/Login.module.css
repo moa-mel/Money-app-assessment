@@ -1,0 +1,194 @@
+.wrapper{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+.wrapper .container {  
+    margin:  auto;
+    display: flex;
+}
+.wrapper .container .left{
+    align-items: center;
+    margin:  auto;
+    justify-content: center;
+    background-color:#FFFFFF;  
+    height: 96vh;
+    width: 30%;
+    padding: 1rem ;
+} 
+.wrapper .container .left .logo{
+    display: block;
+    margin-left: -12px;
+}
+.wrapper .container .left .create{
+    color: #1A1A1A;
+    display: block;
+    text-align: left;
+    margin: auto;
+    font-weight: normal;
+}
+.wrapper .container .left .reg{
+    color: #595959;
+    display: block;
+    text-align: left;
+    margin: auto;
+    font-size: 15px;
+}
+.wrapper .container .left .iconparagh1{
+    margin: auto;
+    display: flex;
+    column-gap: 0.8rem;
+}
+.wrapper .container .left .iconparagh1 .frame1{
+    display: block;
+    width: 20%;
+    height: 30%;
+    padding-top: 1rem;
+}
+.wrapper .container .left .iconparagh1 .paragh1 h3{
+      color: #858585;
+      font-size: 15px;
+}
+.wrapper .container .left .iconparagh1 .paragh1 p{
+     color: #A3A3A3;
+     font-size: 12px;
+}
+.wrapper .container .left .iconparagh2{
+    margin: auto;
+    display: flex;
+    column-gap: 0.7rem;
+}
+.wrapper .container .left .iconparagh2 .frame2{
+    display: block;
+    width: 20%;
+    height: 30%;
+    padding-top: 1rem;
+}
+.wrapper .container .left .iconparagh2 .paragh2 h3{
+    color: #858585;
+    font-size: 15px;
+}
+.wrapper .container .left .iconparagh2 .paragh2 p{
+    color: #A3A3A3;
+    font-size: 12px;
+}
+.wrapper .container .left .iconparagh3{
+    margin: auto;
+    display: flex;
+    column-gap: 0.9rem;
+    border-radius: 23px ;
+    background:#F8F8F6;
+}
+.wrapper .container .left .iconparagh3 .frame3{
+    display: block;
+    width: 20%;
+    height: 30%;
+    padding-top: 0.7rem;
+}
+.wrapper .container .left .iconparagh3 .paragh3 h3{
+    color: #858585;
+    font-size: 15px;
+}
+.wrapper .container .left .iconparagh3 .paragh3 p{
+    color: #A3A3A3;
+    font-size: 12px;
+}
+.wrapper .container .left .iconparagh3 .vector1{
+    display: block;
+    width: 11%;
+    height: 20%;
+    padding-top: 2rem;
+}
+.wrapper .container .right{
+    background-color:#FEF0F2;
+    width: 65%;
+    height: 100vh;
+    padding: 7px 12px;
+    box-sizing: content-box;
+}
+.wrapper .container .right .rightform {
+    background-color: #FFFFFF;
+    width: 500px;  
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px ; 
+    margin: auto; 
+    margin-top: 130px;
+    
+}
+.wrapper .container .right  .rightform .rightparagh h3{
+    color: #1A1A1A;
+    margin-left: 35px;
+}
+.wrapper .container .right  .rightform .rightparagh p{
+    color: #858585;
+    margin-left: 35px;
+}
+.wrapper .container .right  .rightform label{
+    color: #1A1A1A;
+    display: block;
+    text-align: left;
+    width: 86%;
+    margin: auto;
+    font-size: small;
+}
+.wrapper .container .right .rightform .inputtext{
+    background-color: #FFFFFF;
+    display: block;
+    border: 1px solid #1A1A1A;
+    height: 2rem;
+    width: 75%;
+    margin-left: 36px ;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 0.3rem;
+    font-size: small;
+    color: #F0F0F0;
+    border-radius: 8px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.wrapper .container .right .rightform .separatepass{
+    display: flex;
+    height: 2rem;
+    width: 75%;
+    margin-left: 36px ;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 0.3rem;
+    border-radius: 8px;
+    font-size: small;
+  /*  color: #01C8FF; */
+    border: 1px solid #1A1A1A;
+}
+.wrapper .container .right .rightform .separatepass .inputtext{
+    outline: none;
+    background-color: transparent;
+    border: hidden;
+    height: 2rem;
+    width: 1000%;
+    margin-left: 8px ;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 0.3rem;
+}
+.wrapper .container .right .rightform .separatepass span{
+    position: relative;
+    right: 6vh;
+    color: #A6A6A6;
+    padding-top: 0.5rem;
+    margin-right: -26px;
+}
+.wrapper .container .right .rightform button{
+    width: 79%;
+    background: #1CC578;
+    color: #FFFFFF;
+    display: block;
+    border-radius: 18px ;
+    border: 1px solid #01C8FF; 
+    cursor: pointer;
+    padding: 0.4rem 4rem;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 29px ;
+}

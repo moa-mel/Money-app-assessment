@@ -1,0 +1,99 @@
+.dashwrapper{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+.dashwrapper .dashcontainer .imglogo{
+    height: 5.3rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 0.5px solid #DCE2EA;
+}
+.dashwrapper .dashcontainer .imglogo .logo{
+    display: block;
+    margin-left: 19px;
+}
+.dashwrapper .dashcontainer .dashsides{
+   display: flex;
+   column-gap: 2.4rem;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft{
+    background-color: #FFFFFF;
+    border: 0.5px solid #DCE2EA;
+    height: 78vh;
+    width: 60%;
+    margin-left: 19px;
+    border-radius: 12px;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .dashleftimg{
+    display: flex;
+   column-gap: 2.2rem;
+   margin-left: 96px;
+   margin-top: 14px;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .dashleftimg img{
+    width: 8%;
+    height: 20%;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .leftceo{
+    margin-left: 96px;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .leftceo h3{
+    color: #858585;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .leftceo p{
+    color: #1A1A1A;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .leftcto{
+    margin-left: 96px;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .leftcto h3{
+    color: #858585;
+}
+.dashwrapper .dashcontainer .dashsides .dashleft .leftcto p{
+    color: #1A1A1A;
+}
+.dashwrapper .dashcontainer .dashsides .dashright{
+    border: 0.5px solid #DCE2EA;
+    height: 73vh;
+    width: 25%;
+    padding:1rem;
+    background-color: #F7F7F7;
+    border-radius: 12px;
+}
+.dashwrapper .dashcontainer .dashsides .dashright .dashrightimg{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.dashwrapper .dashcontainer .dashsides .dashright .dashrightmiddle{
+    border: 0.8px solid #EBEBEB;
+    height: 35vh;
+    width: 98%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.dashwrapper .dashcontainer .dashsides .dashright .dashrightmiddle .dashrightfirst{
+    display: flex;
+    column-gap: 1.5rem;
+    margin-left: 26px;
+    margin-top: 34px;
+}
+.dashwrapper .dashcontainer .dashsides .dashright .dashrightmiddle .dashrightsecond{
+    display: flex;
+    column-gap: 1.5rem;
+    margin-left: 26px;
+    margin-top: 14px;
+}
+.dashwrapper .dashcontainer .dashsides .dashright .dashrightmiddle .dashrightthird{
+    display: flex;
+    column-gap: 1.5rem;
+    margin-left: 26px;
+    margin-top: 14px;
+}
+.dashwrapper .dashcontainer .dashsides .dashright .dashrightdown img{
+    margin-left: 73px;
+}
+.dashwrapper .dashcontainer .dashsides .dashright .dashrightdown p{
+    color: #595959;
+    margin-left: 46px;
+}
